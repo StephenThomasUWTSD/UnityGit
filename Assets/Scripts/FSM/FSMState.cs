@@ -63,7 +63,10 @@ public abstract class FSMState  {
         }
         else
         {
-            Debug.Log("Added : " + transition + " transitions to state ID : " + stateID);
+            {
+
+                Debug.Log("Added : " + transition + " transitions to state ID : " + stateID);
+            }
         }
 
         
