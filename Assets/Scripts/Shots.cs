@@ -10,7 +10,6 @@ public class Shots : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	    transfer.rico();
         GetComponent<Rigidbody>().velocity = transform.forward*shotSpeed;
         Destroy(gameObject, 20); // 20sec
     }
