@@ -63,17 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AsterSlerp.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\CollAvoid.cs" />
     <Compile Include="Assets\Scripts\CrossHair.cs" />
     <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
-    <Compile Include="Assets\Scripts\FSM\AgentFSM.cs" />
-    <Compile Include="Assets\Scripts\FSM\AgentFSMTank.cs" />
-    <Compile Include="Assets\Scripts\FSM\AttackState.cs" />
-    <Compile Include="Assets\Scripts\FSM\ChaseState.cs" />
-    <Compile Include="Assets\Scripts\FSM\DeadState.cs" />
-    <Compile Include="Assets\Scripts\FSM\FSMState.cs" />
-    <Compile Include="Assets\Scripts\FSM\PatrolState.cs" />
-    <Compile Include="Assets\Scripts\FSM\TankFSMState.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GunScript.cs" />
     <Compile Include="Assets\Scripts\HealthScript.cs" />
