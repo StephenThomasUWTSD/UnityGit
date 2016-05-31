@@ -13,7 +13,7 @@ public class CollAvoid : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        Vector3 target = transform.position - targetYouAreFollowing; 
+        Vector3 target = transform.position / targetYouAreFollowing; 
         Vector3 player = transform.position;
 
         target = target - player;
